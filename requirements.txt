@@ -1,4 +1,4 @@
-telegram.ext
+telegram
 Updater
 MessageHandler
 Filters
