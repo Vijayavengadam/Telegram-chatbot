@@ -1,4 +1,5 @@
-telegram.ext.MessageHandler
-telegram.ext.Updater
-telegram.ext.Filters
-Adafruit_IO.Client
+MessageHandler
+Updater
+Filters
+Adafruit_IO
+telegram.ext
