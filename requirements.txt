@@ -1,6 +1,5 @@
 python-telegram-bot
-Adafruit_IO
+Adafruit_IO-client-python
 MessageHandler
 Updater
 Filters
--r Client
