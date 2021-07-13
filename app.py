@@ -63,7 +63,7 @@ def main(bot,update):
   else:
     bot.message.reply_text('Invalid Text')
 
-BOT_TOKEN = '1827000835:AAF8vsg_cxB_1GhzPC5kWz5XE7sUAHe9sa8'
+BOT_TOKEN = '1894376163:AAHh0U59ov6Z47lnHCSofvuuSdrOfs-gllY'
 u = Updater(BOT_TOKEN,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
