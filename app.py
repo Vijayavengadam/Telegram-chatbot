@@ -1,6 +1,7 @@
 
 from telegram.ext import Updater, MessageHandler,Filters
 from Adafruit_IO import Client
+import os
 
 aio = Client('Vijayavengadam', 'aio_jZQX06iOywXm8HVAojZzxFq3sMuj')
 
@@ -63,7 +64,7 @@ def main(bot,update):
   else:
     bot.message.reply_text('Invalid Text')
 
-BOT_TOKEN = '1894376163:AAHh0U59ov6Z47lnHCSofvuuSdrOfs-gllY'
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 u = Updater(BOT_TOKEN,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
