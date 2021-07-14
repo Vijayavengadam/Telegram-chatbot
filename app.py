@@ -59,7 +59,7 @@ def main(bot,update):
     demo3(bot,update)
   elif a =="switch on the fan" or a=="turn on fan":
     demo4(bot,update)
-  elif a =="switch of the fan" or a=="turn off fan":
+  elif a =="switch off the fan" or a=="turn off fan":
     demo5(bot,update)
   else:
     bot.message.reply_text('Invalid Text')
